@@ -1,6 +1,18 @@
 h1{
     color: rgb(181, 217, 230);
 }
+body, html {
+    background-color: #84bbee;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: flex-start; /* Align content to the top */
+    text-align: center; /* Center-align text */
 .nav {
     --bs-nav-link-padding-x: 1rem;
     --bs-nav-link-padding-y: 0.5rem;
